@@ -1,0 +1,63 @@
+#Usual commands:
+pwd#print working directory
+cd directory#go into the directory
+cd ~#go back home
+cd ..#go back upper level directory
+mkdir directory#make new directory
+vi file#make new file and edit it by vim tool, the method of vim tool can be learned by Internet
+echo ni hao le a liangzai>file#create file with the content of 'ni hao le a liangzai'
+touch file#create a blank file
+grep -n word file1#search 'word' in file1 and show the row number
+cp files path#copy the files to the path, if directory just add '-r'
+mv files path#move the files to the path
+rm files#remove the files
+rm -fr directory#remove the directory forcedly
+cat file#view the all content of the file
+less file#view the file in pages, 'q' for out
+more file#view the file by up and down keys, 'q' for out
+head file#view the forward 10 rows of the file, the rows can be set by '-n 10'
+tail file#view the backward 10 rows of the file, the rows can be set by '-n 10'
+tar cfz newfile.gz commonfile#commonfile is compressed by gzip to the newfile.gz
+tar cfv newfile.tar commonfile# commonfile is compressed by tar to the newfile.tar
+tar xfvz newfile.gz# newfile.gz is decompressed by gzip
+tar xfv newfile.tar#newfile.tar is decompressed by tar
+gzip commonfile#commonfile is compressed by gzip in place without newfile
+gzip -x commonfile.gz# commonfile.gz is decompressed by gzip in place
+wget http/ftp#download
+curl www.baidu.com#this command can check the Internet of the server
+ls -lh#view all files and directories with detailed information
+ps -aux#view all current running missions with PID
+kill -9 PIDnumber#kill the mission forcedly with the PID number
+chmod 777 file#give the jurisdiction of reading, writing and executing limits to the file
+find ./ -name file/directory#search for file or directory from the current directory hierarchy, do not give a wide search scope
+
+#Not usual commands:
+ln -s originfile/directory linkfile/directory#create the soft link of file or directory
+file filename#check the type of the file
+history#show the history commands
+df -m#show the space usage of system disk with Mb unit
+du#check the storage of the directory, you can use 'ls -lh'
+date#show current date
+cal#show the calendar
+lscpu#check the CPU information
+which command#check the location of command
+
+#Wildcard character:
+*#match any character
+?#match one charater
+[[:upper:]]#uppercase
+[[:lower:]]#lowercase
+[[:alpha:]]#allcases including uppercase and lowercase
+[[:digit:]]#number
+[[:space:]]#space
+[^]#match any single character outside the specified character range
+
+#Shortcut keys:
+Ctrl+A#move the cursor to the beginning of the command line
+Ctrl+E# move the cursor to the end of the command line
+Ctrl+C#stop the current command forcedly
+Ctrl+L#clear the screen
+Ctrl+U#delete the current command
+up and down keys#show the history commands
+
+#more information please view “https://blog.csdn.net/fymx203/article/details/94397469” or search yourself.
