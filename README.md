@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @liangjinghui12. I am a postgraduate student in Beijing Forestry University. I do the research of poplar now by bioinformatic. I focus on R language.
+- 👋 Hi, I’m @liangjinghui12. I am a postgraduate student in Beijing Forestry University. I  am doing the research of poplar now. I focus on R language.
 - 👀 I’m interested in game, badminton, reading books.
 - 🌱 I’m currently learning R language, Epigenetics.
 - 💞️ I’m looking to collaborate on bioinformatic.
